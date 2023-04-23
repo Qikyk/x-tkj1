@@ -1,0 +1,381 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MyTour</title>
+    <!-- css bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!-- css bootstrap end -->
+  </head>
+  <body class="bg-dark">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="
+        font-weight: bold;
+        font-family: 'Sedgwick Ave Display', cursive;
+      ">X TKJ-1</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang/">Data Siswa Siswi</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- column -->
+    <div
+      class="container-fluid text-center bg-dark text-light"
+      style="height: 100vh"
+    >
+      <!--  carousel      -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/corosel-1.jpg"
+              class="d-block w-100"
+              alt="gambar"
+              style="height: 400px; object-fit: cover"
+            />
+            <div class="carousel-caption">
+              <h5>🌟Fotbar Kelompok 3🌟</h5>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/2.jpeg"
+              class="d-block w-100"
+              alt="gambar"
+              style="height: 400px; object-fit: cover"
+            />
+            <div class="carousel-caption d-md-block">
+              <h5>🌟Bromo Tour🌟</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/3.jpeg"
+              class="d-block w-100"
+              alt="gambar"
+              style="height: 400px; object-fit: cover"
+            />
+            <div class="carousel-caption d-md-block">
+              <h5>🌟Rinjani Tour🌟</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- end  carousel      -->
+
+      <!-- avatar     -->
+      <div class="row align-items-center mt-4">
+        <div class="col-sm-12">
+          <img src="img/tkj.png" class="" alt="gambar" style="width: 45%;" />
+          <br><br>
+          <h3>🌟Teknik Komputer dan Jaringan🌟</h3>
+          <i
+            > <span class="text-warning">TKJ (Teknik Komputer dan Jaringan) </span>adalah salah satu program keahlian di SMKN Rengel yang fokus pada pengembangan kompetensi di bidang teknologi informasi dan komunikasi. 
+            </i
+          >
+        </div>
+      </div>
+      <br>
+      <!-- end avatar     -->
+
+      <!-- card -->
+      <div class="row align-items-center text-dark">
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body">
+                <img src="img/1.jpg" alt="" width="60%" class="rounded-circle " style="margin-bottom:10px ;">
+                
+              <h5 class="card-title">Ahmad Faqih Ihsanul Amal H</h5>
+              <p class="card-text text-center">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <div class="row align-items-center">
+                <div class="col">
+                  <a class="btn btn-success bi bi-whatsapp w-100" href="#" role="button"></a>
+                </div>
+                <div class="col">
+                  <a class="btn btn-purple bi bi-instagram w-100" style="background-color: #6c5ce7;
+                  color: #fff;" href="#" role="button"></a>
+                </div>
+                <div class="col">
+                  <a class="btn btn-dark bi bi-github w-100" href="#" role="button"></a>
+                </div>
+              </div>
+              
+             
+             
+              <span
+                class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-warning text-dark"
+                >01</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/1.jpg" alt="" width="60%" class="rounded-circle " style="margin-bottom:10px ;">
+              
+            <h5 class="card-title">Ahmad Nur Febrianto</h5>
+            <p class="card-text text-center">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
+            <div class="row align-items-center">
+              <div class="col">
+                <a class="btn btn-success bi bi-whatsapp w-100" href="#" role="button"></a>
+              </div>
+              <div class="col">
+                <a class="btn btn-purple bi bi-instagram w-100" style="background-color: #6c5ce7;
+                color: #fff;" href="#" role="button"></a>
+              </div>
+              <div class="col">
+                <a class="btn btn-primary bi bi-facebook w-100" href="#" role="button"></a>
+              </div>
+            </div>
+            
+           
+           
+            <span
+              class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-warning text-dark"
+              >02</span
+            >
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/1.jpg" alt="" width="60%" class="rounded-circle " style="margin-bottom:10px ;">
+              
+            <h5 class="card-title">Ardiansyah Agrista Utama</h5>
+            <p class="card-text text-center">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
+            <div class="row align-items-center">
+              <div class="col">
+                <a class="btn btn-success bi bi-whatsapp w-100" href="#" role="button"></a>
+              </div>
+              <div class="col">
+                <a class="btn btn-purple bi bi-instagram w-100" style="background-color: #6c5ce7;
+                color: #fff;" href="#" role="button"></a>
+              </div>
+              <div class="col">
+                <a class="btn btn-primary bi bi-facebook w-100" href="#" role="button"></a>
+              </div>
+            </div>
+            
+           
+           
+            <span
+              class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-warning text-dark"
+              >03</span
+            >
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/1.jpg" alt="" width="60%" class="rounded-circle " style="margin-bottom:10px ;">
+              
+            <h5 class="card-title">Dini Abellia Rusmadila</h5>
+            <p class="card-text text-center">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
+            <div class="row align-items-center">
+              <div class="col">
+                <a class="btn btn-success bi bi-whatsapp w-100" href="#" role="button"></a>
+              </div>
+              <div class="col">
+                <a class="btn btn-purple bi bi-instagram w-100" style="background-color: #6c5ce7;
+                color: #fff;" href="#" role="button"></a>
+              </div>
+              <div class="col">
+                <a class="btn btn-primary bi bi-facebook w-100" href="#" role="button"></a>
+              </div>
+            </div>
+            
+           
+           
+            <span
+              class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-warning text-dark"
+              >04</span
+            >
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/1.jpg" alt="" width="60%" class="rounded-circle " style="margin-bottom:10px ;">
+              
+            <h5 class="card-title">Anita Dwi Anggraini</h5>
+            <p class="card-text text-center">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
+            <div class="row align-items-center">
+              <div class="col">
+                <a class="btn btn-success bi bi-whatsapp w-100" href="#" role="button"></a>
+              </div>
+              <div class="col">
+                <a class="btn btn-purple bi bi-instagram w-100" style="background-color: #6c5ce7;
+                color: #fff;" href="#" role="button"></a>
+              </div>
+              <div class="col">
+                <a class="btn btn-primary bi bi-facebook w-100" href="#" role="button"></a>
+              </div>
+            </div>
+            
+           
+           
+            <span
+              class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-warning text-dark"
+              >05</span
+            >
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/1.jpg" alt="" width="60%" class="rounded-circle " style="margin-bottom:10px ;">
+              
+            <h5 class="card-title">Feby Salma Maharani</h5>
+            <p class="card-text text-center">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
+            <div class="row align-items-center">
+              <div class="col">
+                <a class="btn btn-success bi bi-whatsapp w-100" href="#" role="button"></a>
+              </div>
+              <div class="col">
+                <a class="btn btn-purple bi bi-instagram w-100" style="background-color: #6c5ce7;
+                color: #fff;" href="#" role="button"></a>
+              </div>
+              <div class="col">
+                <a class="btn btn-primary bi bi-facebook w-100" href="#" role="button"></a>
+              </div>
+            </div>
+            
+           
+           
+            <span
+              class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-warning text-dark"
+              >06</span
+            >
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- end card -->
+    
+    <!-- column end -->
+
+    <!-- footer -->
+    <footer>
+      <div class="text-center mt-5 p-3" style="background-color: rgba(228, 218, 218, 0.2);">
+        © 2023 Copyright:
+        <a class="text-light text-decoration-none" href="github.com/Qikyk">Qikyk</a>
+      </div>
+    </footer>
+<!-- footer end -->
+
+    <!-- js bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
